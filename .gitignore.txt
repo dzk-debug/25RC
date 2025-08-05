@@ -1,0 +1,25 @@
+#所有的一般可执行文件
+/**/*.exe
+
+#KeilIDE编辑器忽略项
+/**/MDK-ARM/*
+# 不忽略Keil工程配置文件
+!/**/MDK-ARM/*.uvoptx
+!/**/MDK-ARM/*.uvprojx
+!/**/MDK-ARM/startup_*.s
+
+#armgcc-cmake工程忽略项
+/**/cmake-build-debug
+
+#VsCode编辑器忽略项
+/**/.vscode
+/**/workspace.code-workspace
+
+#Clion编辑器忽略项
+/**/.idea
+
+
+# 编辑.gitignore，添加以下内容
+dm-mc02-master达妙开发板资料/agv-master/model/  # 忽略整个模型目录
+*.STEP  # 忽略所有STEP格式文件
+*.SLDASM  # 忽略所有SolidWorks装配文件
