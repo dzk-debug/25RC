@@ -47,3 +47,6 @@
 
 ## 其他说明
 基础功能（如GPIO配置、定时器使用等）可直接查看源码，注释清晰便于理解。
+## 照片
+![微信图片_20250808111138_48](https://github.com/user-attachments/assets/229ef554-6d06-4eae-b9b6-8e5860f7efae)
+
